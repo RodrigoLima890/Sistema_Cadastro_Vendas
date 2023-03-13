@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    margin-top: 10px;
+}
+
+.header button {
+    margin-right: 20px;
+    padding: 10px;
+}
+h1{
+    font-size: 30px;
+}
+
+.title{
+    margin-left: 30px;
+}
+
+/*Tabela de Vendas*/
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+/*Formulario Cadastro*/
+form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: rgb(0, 123, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(0, 98, 204);
+}
+
+.dataTables_filter {
+    margin-right: 20px;
+}
+
+.dataTables_filter input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 128, 128);
+    font-size: 16px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(128, 128, 128);
+}
+
+.dataTables_length {
+    margin-left: 20px;
+}
