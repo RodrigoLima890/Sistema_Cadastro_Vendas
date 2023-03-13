@@ -1,0 +1,11 @@
+{
+    "name":"projeto_nwsoft/gerarpdf",
+    "autoload": {
+        "psr-4":{
+            "htdocs\\":"projeto_nwsoft"
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

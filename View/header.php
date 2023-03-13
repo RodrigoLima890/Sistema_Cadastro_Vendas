@@ -15,6 +15,7 @@
     <header class="header">
         <h1>Sistema De Vendas</h1>
         <a class="btn" href="?pagina=cadastrarVenda"><button>Cadastrar Venda</button></a>
+        <a class="btn" href="?pagina=gerarPdf"><button>Gerar Relatório</button></a>
         <a class="btn" href="?pagina=main"><button>Voltar Para Lista</button></a>
     </header>
     <div class="table-vendas">

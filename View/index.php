@@ -14,9 +14,11 @@ else{
 
 if($pagina == 'cadastrarVenda'){
     include 'cadastroVenda.php';
-}else{
+}else if($pagina == 'gerarPdf'){
+    include './gerarPdf/pdf.php';
+}
+else{
     include 'main.php';
 }
-//se o projeto ficar maior trocaria esse if-else por switch-case
 
 ?>

@@ -22,7 +22,6 @@
       echo '<td>R$' . $linha['preco'] . '</td>';
       echo '<td>' . $linha['tipo_pagamento'] . '</td>';
       echo '<td>' . $linha['numero_nota_fiscal'] . '</td>';
-
     ?>
       <td><a href="?pagina=cadastrarVenda&editar=<?php echo $linha['id']; ?>">Editar</a></td>
 

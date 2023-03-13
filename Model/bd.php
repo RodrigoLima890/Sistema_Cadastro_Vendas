@@ -1,11 +1,8 @@
 <?php
-//conexao com o banco de dados
-$servidor = 'localhost';
-$usuario = 'root';
-$senha = 'P@ulo123';
-$database = 'cadastro_vendas';
+include '../config/config.php';
 
-$conexao = mysqli_connect($servidor, $usuario, $senha, $database);
+//conexao com o banco de dados
+$conexao = mysqli_connect(BD_SERVIDOR, BD_USUARIO, BD_SENHA, BD_NOME);
 
 $query = 'SELECT * FROM venda';
 $consulta = mysqli_query($conexao, $query);
@@ -61,4 +58,5 @@ if($execute){
     echo 'funcionou';
 }
 */
+?>
 
